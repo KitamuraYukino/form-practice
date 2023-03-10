@@ -1,1 +1,21 @@
 @charset "UTF-8";
+
+section{
+  display: block;
+}
+
+.wrapper{
+  width: 100%;
+  background-color: #cff1ff;
+}
+
+.page_title{
+  padding-top: 60px;
+  font-size: 28px;
+  text-align: center;
+}
+
+.inner{
+  margin: 0 auto;
+  width: 600px;
+}
