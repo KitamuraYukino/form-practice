@@ -1,12 +1,23 @@
 @charset "UTF-8";
 
-section{
-  display: block;
-}
+/* 使うクラス名
+.wrapper .inner .page_title .form_wrap .form_title
+.personal_content .content_title .label_section
+.label_text .required .input_area .account_content
+.contact_content .subscription_content .submit_content
+.select_area .is_flex .select_unit */
+
+/* 使うid名 #family-name #given-name */
+
 
 .wrapper{
   width: 100%;
-  background-color: #cff1ff;
+  background: #cff1ff;
+}
+
+.inner {
+  margin: 0 auto;
+  width: 600px;
 }
 
 .page_title{
@@ -15,7 +26,8 @@ section{
   text-align: center;
 }
 
-.inner{
-  margin: 0 auto;
-  width: 600px;
+.form_wrap{
+  padding: 50px;
+  background: #ecfaff;
+  margin-top: 60px;
 }
